@@ -1,50 +1,14 @@
-# Job_Posting
-# Job-Portal
+# Job-lister
 
-1. Created login / register page
+A part-time job listing web application for intra-college personnel and students. Developed as a project for CS308 (Large applications praticum).
 
-2. Registration page  have the following fields
-            a. Username
-            b. Password
-            c. Email
-            d. Location
-            e. Phone number
-            f. User type
-            i. Company
-            ii. Job seeker
+*This project has been built on LAMP stack in accordance with the project requirements.*
 
-3. After login / registration user should land on
-home page.
+### Up and running
 
-4. Home page have following links
-              a. Post a job
-              b. Search jobs
-              c. logout
-5. Depending on the user type the menu should
-toggle between
+* Download and install [XAMPP](https://www.apachefriends.org/download.html).
+* Move the directory into the `xampp/htdocs` folder.
+* Start the apache server and MySQL service from the XAMPP control panel.
+* Use `config/db_create.sql` file to initialize a local database for the application.
 
-              a. Post a job : for company logins
-              b. Search jobs : for job seekers
-            
-6. Post a job page to have the following fields
-
-              a. Job title
-              b. Job description
-              c. Keywords
-              d. Location
-              e. Save jobs button
-7. Search jobs page to have the following fields
-              a. Search by title
-              b. Search by keywords
-              c. Search by location
-              d. Search button
-              e. Reset button
-              f. Once search button is clicked it should list
-              all the matching jobs in a list
-
-
-8. Logout link to redirect user to login page.
-
-9. Home page, post job, search jobs page should
-be accessible only if the user is logged in, else
-should redirect to login page.
+Now you can go to [localhost/Job-Lister/app](https://localhost/Job-Lister/app) from your browser.
