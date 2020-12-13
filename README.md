@@ -16,3 +16,5 @@ Now you can go to [localhost/Job-Lister/app](https://localhost/Job-Lister/app) f
 
 
 Check out the [wiki](https://github.com/Ruchika06/Job_Posting/wiki) page for details of the project.
+
+Live: http://13.126.97.198/joblister
